@@ -13,10 +13,10 @@ public class Move1 extends Applet implements Runnable,ActionListener
 	public void init()
 {
 	setBackground(Color.cyan);
-	b1=new Button("Life");
-	b2=new Button("Kill");
-	b3=new Button("Pause");
-	b4=new Button("Resume");
+	b1=new Button("Life 1");
+	b2=new Button("Kill 2");
+	b3=new Button("Pause 3");
+	b4=new Button("Resume 4");
 	b1.addActionListener(this);
 	b2.addActionListener(this);
 	b3.addActionListener(this);
