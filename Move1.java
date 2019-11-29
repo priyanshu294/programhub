@@ -72,7 +72,7 @@ Thread.sleep(200);
 	@Override
 	public void paint(Graphics g)
 {
-	g.setColor(Color.red);
+	g.setColor(Color.blue);
 	g.fillOval(x,200,80,80);
 }
 }
